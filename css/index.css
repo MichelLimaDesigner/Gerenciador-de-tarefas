@@ -16,7 +16,12 @@ header {
     width: 1;
 }
 
-.pesquisa:hover .input {
+.pesquisa input {
+    width: 200px;
+    transition: all 0.3s linear;
+}
+
+.pesquisa:hover input {
     width: 300px;
     height: 25px;
 }
@@ -38,5 +43,10 @@ section {
     box-sizing: border-box;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
-    background-color: blue;
+}
+
+.card__titulo {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    color: var(--black);
 }
