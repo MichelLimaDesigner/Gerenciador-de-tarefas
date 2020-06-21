@@ -136,10 +136,15 @@ table {
 }
 .input {
     width: 250px;
-    height: 15px;
+    height: 22px;
 }
 
 button{
     height: 22px;
     width: 30px;
+}
+.card{
+    background-color: blueviolet;
+    padding-top: 0px;
+    box-shadow: 5px 5px 15px black;
 }
