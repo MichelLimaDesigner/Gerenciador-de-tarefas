@@ -139,18 +139,13 @@ table {
 
 .input {
     width: 250px;
-    height: 15px;
+    height: 22px;
 }
 
 button {
     height: 22px;
     width: 30px;
 }
-
-
-/* ================================
-            Pattens styles
-===================================*/
 
 :root {
     /* --- colors ----- */
