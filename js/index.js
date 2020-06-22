@@ -6,4 +6,5 @@ function popUp(){
 
 function out(){
     document.querySelector(".popup").style.display = "none";
+    
 }

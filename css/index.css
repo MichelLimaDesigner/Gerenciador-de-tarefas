@@ -70,14 +70,21 @@ section {
 }
 
 section button{
-    margin-left: 25px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: lightseagreen;
+    margin-left: 40px;
     margin-top: 30px;
     text-align: center;
     height: 30px;
     width: 100px;
     cursor: pointer;
+    transition: all 0.2s linear;   
 }
 
+button:hover {
+    box-shadow: 0px 0px 5px 1px black;
+}
 
 /* ================================
             Card
@@ -120,10 +127,14 @@ section button{
     
 }
 .popup .submit{
+    border-radius: 20px;
     margin-top: 50px;
     height: 50px;
     width: 100px;
     font-size: 20px;
+    background-color: green;
+    color: white;
+    transition: all 0.2s linear;   
 }
 
 .popup__card{
@@ -133,7 +144,9 @@ section button{
     padding: 20px;
     border-radius: 5px;
     position: relative;
+    box-shadow: 0px 0px 50px 2px black;
 }
+
 .close{
     position: absolute;
     left: 520px;
@@ -151,10 +164,23 @@ section button{
 
 .popup .close{
     transition: all 0.2s linear;
+    border-radius: 100%;
 }
 .close:hover {
     box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.5);
-    transition: all 0.2s linear;
-    border-radius: 100%;
+    transition: all 0.2s linear;    
 }
 
+.submit:hover {
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.info{
+    background-color: rgb(229, 227, 255);
+    box-shadow:0px 0px 10px 3px rgb(5, 71, 87) ;
+    margin: 0px;
+    height: 230px;
+    border: rgb(25, 201, 69) 1px solid;
+    border-radius: var(--radius);
+    padding-top: 20px;
+}
