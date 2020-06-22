@@ -14,22 +14,39 @@
 </head>
 
 <body>
+
+    <!-- popUp -->
+    <div class="popup">
+        <div class="popup__card">
+            <span class="close"> <i class="fas fa-times-circle" onclick="out()"></i></span>
+            <form class="info">
+                <h1>Titulo do projeto</h1>
+                <input type="text" name="Title" ><br>
+                <button type="submit" class="submit">Criar</button>
+            </form>
+        </div>
+    </div>
+
+
     <header>
+
+        <!-- Search -->
         <div class="search">
             <input type="search" placeholder="Search" class="search__bar">
+            <span class="fas fa-search"></span>
         </div>
+
     </header>
 
-    <section class="background">
-        <aside class="card">
-            <h3 class="card__title"> Bacalhau </h3>
-            <p class="card__number">15</p>
-        </aside>
+    <section>
+
+        <button class="btn" onclick="popUp()">Novo Projeto</button>
+        
     </section>
 
     <footer>
 
-    </footer>
+</footer>
 </body>
 
 </html>
