@@ -156,3 +156,41 @@ button {
     /* --- radius ----- */
     --radius: 5px;
 }
+
+
+/* ==========================
+            Modal
+============================*/
+
+.modal {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: calc(50% - 100px);
+    left: calc(50% - 200px);
+    margin: auto;
+    background-color: white;
+    /* box-shadow: var(--shadow); */
+    display: none;
+    z-index: 999;
+}
+
+.modal--open {
+    display: block;
+}
+
+.lightbox {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 998;
+}
+
+.lightbox--open {
+    display: block;
+}

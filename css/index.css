@@ -1,9 +1,11 @@
 /* ================================
             Body
 ===================================*/
-body{
+
+body {
     background-color: rgb(218, 223, 250);
 }
+
 
 /* ================================
             Header
@@ -13,22 +15,20 @@ header {
     margin: 0px;
     background-color: var(--black);
     height: 60px;
-    
-
 }
+
 
 /* ================================
             Search
 ===================================*/
 
-
 .search {
     line-height: 3.25;
     text-align: center;
     color: blanchedalmond;
-    
 }
-.search__bar{
+
+.search__bar {
     font-size: 15px;
 }
 
@@ -40,36 +40,37 @@ header {
     transition: all 0.2s linear;
     border-style: none;
 }
-.search:hover input{
+
+.search:hover input {
     width: 250px;
     height: 40px;
     border-radius: 7px;
-    font-size: 18px;  
+    font-size: 18px;
 }
-.search span{
+
+.search span {
     width: 40px;
     height: 40px;
-
 }
-
 
 
 /* ================================
             Section
 ===================================*/
-section input{
-    
+
+section input {
     background-color: rgb(255, 249, 249);
     padding: 15px;
     text-align: center;
     margin: 20px;
 }
+
 section {
     padding: 0px;
     height: 100vh;
 }
 
-section button{
+section button {
     border-radius: 20px;
     width: 100px;
     background-color: lightseagreen;
@@ -79,17 +80,17 @@ section button{
     height: 30px;
     width: 100px;
     cursor: pointer;
-    transition: all 0.2s linear;   
+    transition: all 0.2s linear;
 }
 
 button:hover {
     box-shadow: 0px 0px 5px 1px black;
 }
 
+
 /* ================================
             Card
 ===================================*/
-
 
 .card {
     width: 300px;
@@ -104,83 +105,4 @@ button:hover {
     font-size: 1.2em;
     margin-bottom: 25px;
     color: var(--black);
-}
-
-/* ================================
-            Pop Pup
-===================================*/
-.info {
-    margin-top: 30px;
-}
-.popup h1{
-    font-size: 30px;
-}
-.popup{
-  text-align: center;
-  background: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: none;
-  justify-content: center;
-  align-items: center;
-    
-}
-.popup .submit{
-    border-radius: 20px;
-    margin-top: 50px;
-    height: 50px;
-    width: 100px;
-    font-size: 20px;
-    background-color: green;
-    color: white;
-    transition: all 0.2s linear;   
-}
-
-.popup__card{
-    background-color: white;
-    height: 250px;
-    width: 500px;
-    padding: 20px;
-    border-radius: 5px;
-    position: relative;
-    box-shadow: 0px 0px 50px 2px black;
-}
-
-.close{
-    position: absolute;
-    left: 520px;
-    top: 5px;
-    cursor: pointer;
-}
-.popup input{
-    width: 400px;
-    height: 30px;
-    padding-left: 15px;
-    border-radius: 7px;
-    font-size: 20px;
-    margin-top: 25px;
-}
-
-.popup .close{
-    transition: all 0.2s linear;
-    border-radius: 100%;
-}
-.close:hover {
-    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.5);
-    transition: all 0.2s linear;    
-}
-
-.submit:hover {
-    box-shadow: 0px 0px 5px 1px black;
-}
-
-.info{
-    background-color: rgb(229, 227, 255);
-    box-shadow:0px 0px 10px 3px rgb(5, 71, 87) ;
-    margin: 0px;
-    height: 230px;
-    border: rgb(25, 201, 69) 1px solid;
-    border-radius: var(--radius);
-    padding-top: 20px;
 }
